@@ -1,0 +1,140 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="960" height="640" viewBox="0 0 960 640" role="img" aria-labelledby="title desc">
+  <title id="title">POS Sri Lanka billing workflow</title>
+  <desc id="desc">Modern and professional POS interface visual showing retail checkout with barcode scanning, receipt printing and daily sales reporting for Sri Lankan shops.</desc>
+  
+  <defs>
+    <!-- Soft Drop Shadow -->
+    <filter id="shadow" x="-5%" y="-5%" width="110%" height="110%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="8"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.12"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="headerGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f766e;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#115e59;stop-opacity:1" />
+    </linearGradient>
+    
+    <linearGradient id="btnGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="chartGrad" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" style="stop-color:#0f766e;stop-opacity:0.8" />
+      <stop offset="100%" style="stop-color:#2dd4bf;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="960" height="640" fill="#f8fafc"/>
+  
+  <!-- Main Terminal Window with Shadow -->
+  <rect x="40" y="40" width="600" height="560" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+  
+  <!-- Terminal Header -->
+  <path d="M40 56a16 16 0 0 1 16-16h568a16 16 0 0 1 16 16v44H40z" fill="url(#headerGrad)"/>
+  <circle cx="65" cy="70" r="5" fill="#ef4444"/>
+  <circle cx="80" cy="70" r="5" fill="#f59e0b"/>
+  <circle cx="95" cy="70" r="5" fill="#10b981"/>
+  <text x="120" y="76" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" opacity="0.9">POS SL Terminal v4.2</text>
+
+  <!-- Sidebar -->
+  <rect x="40" y="100" width="70" height="500" fill="#f1f5f9" />
+  <rect x="55" y="130" width="40" height="40" rx="10" fill="#0f766e"/>
+  <!-- Home Icon Placeholder -->
+  <path d="M67 155h16v-10l-8-6-8 6z" fill="#fff" opacity="0.8"/>
+  
+  <rect x="55" y="190" width="40" height="40" rx="10" fill="#cbd5e1"/>
+  <rect x="55" y="250" width="40" height="40" rx="10" fill="#cbd5e1"/>
+  <rect x="55" y="310" width="40" height="40" rx="10" fill="#cbd5e1"/>
+
+  <!-- Billing Screen Content -->
+  <text x="135" y="140" fill="#1e293b" font-family="Inter, Arial, sans-serif" font-size="24" font-weight="800">New Sale</text>
+  
+  <!-- Search / Input Field -->
+  <rect x="135" y="165" width="480" height="48" rx="12" fill="#fff" stroke="#e2e8f0" stroke-width="2"/>
+  <path d="M155 189l4-4m-4 4a6 6 0 1 1 8.5-8.5 6 6 0 0 1-8.5 8.5z" stroke="#94a3b8" stroke-width="2" fill="none"/>
+  <text x="180" y="195" fill="#94a3b8" font-family="Inter, Arial, sans-serif" font-size="16">Search items or scan barcode...</text>
+
+  <!-- Table Head -->
+  <text x="135" y="250" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" letter-spacing="0.05em">PRODUCT</text>
+  <text x="590" y="250" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700" text-anchor="end">PRICE</text>
+  <line x1="135" y1="260" x2="590" y2="260" stroke="#f1f5f9" stroke-width="2"/>
+
+  <!-- Item List -->
+  <g transform="translate(135, 280)">
+    <rect width="455" height="64" rx="12" fill="#f8fafc"/>
+    <text x="16" y="38" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Rice 5kg (Premium)</text>
+    <text x="439" y="38" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="end">Rs 2,450</text>
+  </g>
+
+  <g transform="translate(135, 354)">
+    <rect width="455" height="64" rx="12" fill="#f8fafc"/>
+    <text x="16" y="38" fill="#334155" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600">Ceylon Tea 400g</text>
+    <text x="439" y="38" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="700" text-anchor="end">Rs 980</text>
+  </g>
+
+  <!-- Checkout Section -->
+  <rect x="135" y="470" width="480" height="110" rx="16" fill="#f1f5f9" stroke="#e2e8f0"/>
+  <text x="160" y="505" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="600">Total Payable</text>
+  <text x="160" y="550" fill="#0f172a" font-family="Inter, Arial, sans-serif" font-size="36" font-weight="900">Rs 3,430</text>
+  
+  <rect x="380" y="490" width="210" height="70" rx="12" fill="url(#btnGrad)"/>
+  <text x="485" y="532" fill="#ffffff" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="800" text-anchor="middle">COMPLETE SALE</text>
+
+  <!-- Side Panels -->
+  <!-- Status Cards -->
+  <g transform="translate(660, 40)">
+    <rect width="260" height="270" rx="20" fill="#ffffff" filter="url(#shadow)"/>
+    <text x="25" y="45" fill="#1e293b" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Hardware Status</text>
+    
+    <g transform="translate(25, 75)">
+      <rect width="210" height="50" rx="12" fill="#f0fdfa"/>
+      <circle cx="20" cy="25" r="5" fill="#10b981"/>
+      <text x="40" y="31" fill="#134e4a" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Scanner Online</text>
+    </g>
+    
+    <g transform="translate(25, 135)">
+      <rect width="210" height="50" rx="12" fill="#f0fdfa"/>
+      <circle cx="20" cy="25" r="5" fill="#10b981"/>
+      <text x="40" y="31" fill="#134e4a" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Printer Connected</text>
+    </g>
+
+    <g transform="translate(25, 195)">
+      <rect width="210" height="50" rx="12" fill="#fff7ed"/>
+      <circle cx="20" cy="25" r="5" fill="#f59e0b"/>
+      <text x="40" y="31" fill="#7c2d12" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="700">Cloud Sync Active</text>
+    </g>
+  </g>
+
+  <!-- Insights Card -->
+  <g transform="translate(660, 330)">
+    <rect width="260" height="270" rx="20" fill="#ffffff" filter="url(#shadow)"/>
+    <text x="25" y="45" fill="#1e293b" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800">Today's Sales</text>
+    
+    <g transform="translate(25, 70)">
+      <rect x="0" y="80" width="35" height="50" rx="6" fill="#f1f5f9"/>
+      <rect x="45" y="60" width="35" height="70" rx="6" fill="#e2e8f0"/>
+      <rect x="90" y="20" width="35" height="110" rx="6" fill="url(#chartGrad)"/>
+      <rect x="135" y="50" width="35" height="80" rx="6" fill="#cbd5e1"/>
+      <line x1="0" y1="135" x2="210" y2="135" stroke="#e2e8f0" stroke-width="2"/>
+    </g>
+    
+    <text x="25" y="230" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="600">Peak hour: 11:00 AM</text>
+    <text x="25" y="250" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800">Growth: +12% vs yesterday</text>
+  </g>
+
+  <!-- Connectors -->
+  <path d="M640 520 Q 650 520 660 500" fill="none" stroke="#cbd5e1" stroke-width="2" stroke-dasharray="4 4" opacity="0.5"/>
+  
+  <!-- SEO Branding Text -->
+  <text x="40" y="625" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="700" letter-spacing="0.02em">POS SRI LANKA: BILLING + INVENTORY + CLOUD REPORTS</text>
+</svg>

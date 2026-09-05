@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">POS SL product context</title>
+  <desc id="desc">Branded POS Sri Lanka social preview showing billing, inventory and restaurant KOT workflow context.</desc>
+  <rect width="1200" height="630" fill="#f7f8fb"/>
+  <rect x="70" y="70" width="1060" height="490" rx="8" fill="#ffffff" stroke="#d9e0e7" stroke-width="2"/>
+  <text x="112" y="165" fill="#0f766e" font-family="Arial, sans-serif" font-size="72" font-weight="700">POS SL</text>
+  <text x="112" y="235" fill="#17212b" font-family="Arial, sans-serif" font-size="38" font-weight="700">POS System Sri Lanka</text>
+  <text x="112" y="292" fill="#5e6b78" font-family="Arial, sans-serif" font-size="28">Billing, inventory, barcode, cloud and offline POS workflows</text>
+  <rect x="112" y="350" width="250" height="96" rx="8" fill="#eef3f7" stroke="#d9e0e7"/>
+  <text x="142" y="390" fill="#17212b" font-family="Arial, sans-serif" font-size="24" font-weight="700">Retail checkout</text>
+  <text x="142" y="425" fill="#5e6b78" font-family="Arial, sans-serif" font-size="18">Barcode billing</text>
+  <rect x="394" y="350" width="250" height="96" rx="8" fill="#eef3f7" stroke="#d9e0e7"/>
+  <text x="424" y="390" fill="#17212b" font-family="Arial, sans-serif" font-size="24" font-weight="700">Stock reports</text>
+  <text x="424" y="425" fill="#5e6b78" font-family="Arial, sans-serif" font-size="18">Low-stock review</text>
+  <rect x="676" y="350" width="250" height="96" rx="8" fill="#eef3f7" stroke="#d9e0e7"/>
+  <text x="706" y="390" fill="#17212b" font-family="Arial, sans-serif" font-size="24" font-weight="700">Restaurant KOT</text>
+  <text x="706" y="425" fill="#5e6b78" font-family="Arial, sans-serif" font-size="18">Kitchen workflow</text>
+  <rect x="862" y="120" width="178" height="178" rx="8" fill="#0f766e"/>
+  <text x="904" y="222" fill="#ffffff" font-family="Arial, sans-serif" font-size="62" font-weight="700">POS</text>
+  <text x="920" y="264" fill="#ffffff" font-family="Arial, sans-serif" font-size="36" font-weight="700">SL</text>
+  <text x="112" y="506" fill="#115e59" font-family="Arial, sans-serif" font-size="26" font-weight="700">Powered by Pixellark Solution</text>
+</svg>

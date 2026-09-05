@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" role="img" aria-labelledby="title desc">
+  <title id="title">POS SL</title>
+  <desc id="desc">POS Sri Lanka powered by Pixellark Solution</desc>
+  <rect width="1200" height="630" fill="#f7f8fb"/>
+  <rect x="80" y="80" width="1040" height="470" rx="8" fill="#ffffff" stroke="#d9e0e7" stroke-width="2"/>
+  <text x="120" y="230" fill="#0f766e" font-family="Arial, sans-serif" font-size="72" font-weight="700">POS SL</text>
+  <text x="120" y="315" fill="#17212b" font-family="Arial, sans-serif" font-size="42" font-weight="700">POS Sri Lanka</text>
+  <text x="120" y="382" fill="#5e6b78" font-family="Arial, sans-serif" font-size="30">Billing, stock, barcode and reports</text>
+  <text x="120" y="445" fill="#115e59" font-family="Arial, sans-serif" font-size="28">Powered by Pixellark Solution</text>
+</svg>

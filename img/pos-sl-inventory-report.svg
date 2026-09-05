@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">POS SL inventory report workflow</title>
+  <desc id="desc">Workflow visual for stock balance, low stock alerts and supplier purchasing in POS SL.</desc>
+  <rect width="720" height="480" fill="#ffffff"/>
+  <rect x="32" y="32" width="656" height="416" rx="8" fill="#f7f8fb" stroke="#d9e0e7"/>
+  <text x="64" y="86" fill="#17212b" font-family="Arial, sans-serif" font-size="28" font-weight="700">Inventory report</text>
+  <text x="64" y="122" fill="#5e6b78" font-family="Arial, sans-serif" font-size="18">Stock movement for Sri Lankan shops</text>
+  <rect x="64" y="162" width="592" height="52" rx="6" fill="#0f766e"/>
+  <text x="88" y="196" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Item</text>
+  <text x="322" y="196" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Stock</text>
+  <text x="456" y="196" fill="#ffffff" font-family="Arial, sans-serif" font-size="18" font-weight="700">Status</text>
+  <rect x="64" y="232" width="592" height="48" rx="6" fill="#ffffff" stroke="#d9e0e7"/>
+  <text x="88" y="263" fill="#17212b" font-family="Arial, sans-serif" font-size="17">Barcode item</text>
+  <text x="330" y="263" fill="#17212b" font-family="Arial, sans-serif" font-size="17">48</text>
+  <text x="456" y="263" fill="#0f766e" font-family="Arial, sans-serif" font-size="17" font-weight="700">Available</text>
+  <rect x="64" y="296" width="592" height="48" rx="6" fill="#ffffff" stroke="#d9e0e7"/>
+  <text x="88" y="327" fill="#17212b" font-family="Arial, sans-serif" font-size="17">Fast-moving item</text>
+  <text x="330" y="327" fill="#17212b" font-family="Arial, sans-serif" font-size="17">6</text>
+  <text x="456" y="327" fill="#b91c1c" font-family="Arial, sans-serif" font-size="17" font-weight="700">Low stock</text>
+  <rect x="64" y="360" width="592" height="48" rx="6" fill="#ffffff" stroke="#d9e0e7"/>
+  <text x="88" y="391" fill="#17212b" font-family="Arial, sans-serif" font-size="17">Supplier purchase</text>
+  <text x="330" y="391" fill="#17212b" font-family="Arial, sans-serif" font-size="17">GRN</text>
+  <text x="456" y="391" fill="#f59e0b" font-family="Arial, sans-serif" font-size="17" font-weight="700">Review</text>
+</svg>

@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="480" viewBox="0 0 720 480" role="img" aria-labelledby="title desc">
+  <title id="title">Restaurant POS KOT workflow Sri Lanka</title>
+  <desc id="desc">Modern workflow visual showing restaurant order entry, KOT kitchen printing and cashier receipt flow for Sri Lankan restaurants.</desc>
+  
+  <defs>
+    <!-- Soft Drop Shadow -->
+    <filter id="shadow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceAlpha" stdDeviation="6"/>
+      <feOffset dx="0" dy="4" result="offsetblur"/>
+      <feComponentTransfer>
+        <feFuncA type="linear" slope="0.1"/>
+      </feComponentTransfer>
+      <feMerge>
+        <feMergeNode/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Gradients -->
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f8fafc;stop-opacity:1" />
+    </linearGradient>
+
+    <linearGradient id="iconGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#14b8a6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f766e;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="720" height="480" fill="#f8fafc"/>
+  
+  <!-- Header Section -->
+  <text x="40" y="60" fill="#1e293b" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="800">Restaurant KOT workflow</text>
+  <text x="40" y="90" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="500">Streamlined order-to-kitchen process for Sri Lankan restaurants</text>
+
+  <!-- Step 1: Order -->
+  <g transform="translate(40, 130)">
+    <rect width="180" height="180" rx="20" fill="url(#cardGrad)" filter="url(#shadow)"/>
+    <circle cx="90" cy="65" r="35" fill="#f0fdfa"/>
+    <!-- Order Icon Placeholder -->
+    <path d="M75 60h30v20h-30zM80 55h20v5h-20z" fill="#0f766e"/>
+    <text x="90" y="130" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle">1. ORDER</text>
+    <text x="90" y="155" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Dine-in or Takeaway</text>
+  </g>
+
+  <!-- Arrow 1 -->
+  <path d="M235 220 L275 220" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6 4" fill="none"/>
+  <path d="M275 215 L285 220 L275 225 Z" fill="#cbd5e1"/>
+
+  <!-- Step 2: KOT -->
+  <g transform="translate(300, 130)">
+    <rect width="180" height="180" rx="20" fill="url(#cardGrad)" filter="url(#shadow)"/>
+    <circle cx="90" cy="65" r="35" fill="#f0fdfa"/>
+    <!-- KOT/Printer Icon Placeholder -->
+    <path d="M75 55h30v15h-30zM80 70v10h20v-10" fill="#0f766e" opacity="0.8"/>
+    <text x="90" y="130" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="800" text-anchor="middle">2. KOT</text>
+    <text x="90" y="155" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="600" text-anchor="middle">Kitchen Tickets</text>
+  </g>
+
+  <!-- Arrow 2 -->
+  <path d="M495 220 L535 220" stroke="#cbd5e1" stroke-width="3" stroke-dasharray="6 4" fill="none"/>
+  <path d="M535 215 L545 220 L535 225 Z" fill="#cbd5e1"/>
+
+  <!-- Step 3: BILL -->
+  <g transform="translate(560, 160)">
+    <rect width="120" height="120" rx="16" fill="#ffffff" filter="url(#shadow)"/>
+    <rect x="30" y="30" width="60" height="60" rx="8" fill="#f1f5f9"/>
+    <rect x="40" y="45" width="40" height="4" rx="2" fill="#cbd5e1"/>
+    <rect x="40" y="55" width="30" height="4" rx="2" fill="#cbd5e1"/>
+    <rect x="40" y="65" width="40" height="4" rx="2" fill="#0f766e"/>
+    <text x="60" y="110" fill="#1e293b" font-family="Inter, Arial, sans-serif" font-size="14" font-weight="800" text-anchor="middle">3. BILLING</text>
+  </g>
+
+  <!-- Explanatory Footer -->
+  <g transform="translate(40, 350)">
+    <rect width="640" height="90" rx="16" fill="#0f766e" fill-opacity="0.05" stroke="#0f766e" stroke-width="1" stroke-dasharray="4 4"/>
+    <text x="25" y="40" fill="#1e293b" font-family="Inter, Arial, sans-serif" font-size="16" font-weight="700">Cashier receipts and daily reports stay separate from kitchen tickets.</text>
+    <text x="25" y="65" fill="#64748b" font-family="Inter, Arial, sans-serif" font-size="15" font-weight="500">Plan printer routing, waiter permissions and offline billing for stability.</text>
+  </g>
+
+  <!-- SEO Branding -->
+  <text x="40" y="465" fill="#0f766e" font-family="Inter, Arial, sans-serif" font-size="13" font-weight="800" letter-spacing="0.05em">POS SRI LANKA: RESTAURANT &amp; KOT SOLUTIONS</text>
+</svg>
