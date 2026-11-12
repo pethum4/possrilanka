@@ -1,0 +1,260 @@
+{
+  "meta": {
+    "pageTitle": "POS Billing System Price in Sri Lanka",
+    "currency": "LKR",
+    "currencySymbol": "Rs.",
+    "whatsappNumber": "94778941889",
+    "whatsappDisplay": "+94 77 894 1889",
+    "lastUpdated": "2026-11-12",
+    "warrantyDefault": "1 Year Hardware Warranty + Lifetime Software Support",
+    "islandwideDelivery": true
+  },
+  "softwarePackages": [
+    {
+      "id": "offline-pos",
+      "name": "POS SL offline POS Software",
+      "priceLkr": 17500,
+      "billingPeriod": "One-time payment",
+      "serverFeeNote": "No monthly server fee",
+      "monthlyUsd": 0,
+      "summary": "Fast, rock-solid counter billing that never depends on an active internet connection.",
+      "features": [
+        "One-time software fee - zero monthly server costs",
+        "Fast barcode billing & receipt printing",
+        "Inventory stock tracking & low-stock alerts",
+        "Daily sales reports, cash reconciliation & profit margins",
+        "No internet required - 100% reliable local database"
+      ],
+      "isDefault": true
+    },
+    {
+      "id": "cloud-pos",
+      "name": "System-Navigator cloud POS",
+      "priceLkr": 25500,
+      "billingPeriod": "Setup fee",
+      "serverFeeNote": "+ $3 USD server fee per month",
+      "monthlyUsd": 3,
+      "summary": "Modern cloud-connected POS for remote store monitoring and multi-device access.",
+      "features": [
+        "Access live sales reports from your mobile phone anywhere",
+        "Automatic cloud database backup & security",
+        "Multi-counter & multi-user role management",
+        "Customer loyalty, credit sales & ledger tracking",
+        "Affordable $3 USD/mo dedicated server maintenance"
+      ],
+      "isDefault": false
+    },
+    {
+      "id": "active-cloud-sync-pos",
+      "name": "System-Navigator online+offline active cloud sync POS",
+      "priceLkr": 67500,
+      "billingPeriod": "Setup fee",
+      "serverFeeNote": "+ $3 USD server fee per month",
+      "monthlyUsd": 3,
+      "summary": "Dual-engine architecture: bills instantly offline and automatically synchronizes with the cloud when connected.",
+      "features": [
+        "Uninterrupted offline counter billing during internet outages",
+        "Bi-directional automatic cloud sync upon reconnection",
+        "Live branch-to-headquarters inventory visibility",
+        "Centralized product pricing, master catalogue & consolidated reports",
+        "Ideal for busy supermarkets, pharmacies & retail chains"
+      ],
+      "isDefault": false
+    },
+    {
+      "id": "premium-mobile-billing",
+      "name": "System-Navigator premium POS with mobile billing",
+      "priceLkr": 85500,
+      "billingPeriod": "Setup fee",
+      "serverFeeNote": "Includes mobile billing module",
+      "monthlyUsd": 0,
+      "summary": "Counter POS plus handheld smartphone/tablet mobile billing for floor staff and table ordering.",
+      "features": [
+        "Take orders and bill customers right from Android phones or tablets",
+        "Table-side ordering for restaurants & cafes with instant KOT routing",
+        "Queue-busting during peak supermarket / festival rush hours",
+        "Bluetooth mobile receipt printing support",
+        "Full manager controls & real-time analytics"
+      ],
+      "isDefault": false
+    },
+    {
+      "id": "pos-online-store",
+      "name": "System-Navigator POS with online store",
+      "priceLkr": 125000,
+      "billingPeriod": "Setup fee",
+      "serverFeeNote": "+ $4.5 USD server fee per month",
+      "monthlyUsd": 4.5,
+      "summary": "Complete omnichannel solution: physical store POS connected seamlessly with an integrated eCommerce online store.",
+      "features": [
+        "Ready-to-use eCommerce website integrated with your physical counter",
+        "Unified real-time stock sync - prevent overselling automatically",
+        "Accept WhatsApp orders & online card payments",
+        "Order management, delivery dispatch & SMS alerts",
+        "Dedicated cloud hosting & e-commerce database ($4.5 USD/month)"
+      ],
+      "isDefault": false
+    }
+  ],
+  "addons": [
+    {
+      "id": "receipt-printer",
+      "name": "Thermal Receipt Printer",
+      "priceLkr": 12800,
+      "badge": "Essential",
+      "shortDesc": "",
+      "description": "Commercial grade 80mm high-speed direct thermal printer with heavy-duty auto-cutter. Fast 260mm/s print speed, supports Sinhala, Tamil & English text, logos, and QR codes."
+    },
+    {
+      "id": "barcode-scanner",
+      "name": "Barcode Scanner",
+      "priceLkr": 12500,
+      "badge": "Popular",
+      "shortDesc": "",
+      "description": "Ergonomic laser & 2D barcode scanner with auto-sensing hands-free stand. Scans printed barcodes, damaged codes, and digital smartphone screens instantly."
+    },
+    {
+      "id": "cash-drawer",
+      "name": "Cash Drawer",
+      "priceLkr": 14200,
+      "badge": "Essential",
+      "shortDesc": "Heavy-duty metal 5-note / 8-coin cash drawer with RJ11 auto-kick.",
+      "description": "Solid steel construction with 3-position security key lock. Connects directly to receipt printer for automatic opening on receipt print."
+    },
+    {
+      "id": "barcode-printer",
+      "name": "Barcode Label Printer",
+      "priceLkr": 25800,
+      "badge": "Retail Choice",
+      "shortDesc": "Direct thermal barcode sticker printer for custom price tags & labels.",
+      "description": "High-resolution thermal sticker printer for printing your own product barcodes, expiry dates, batch numbers, and price tags."
+    },
+    {
+      "id": "kot-printer",
+      "name": "KOT Kitchen Printer",
+      "priceLkr": 12800,
+      "badge": "Restaurant Essential",
+      "shortDesc": "Heavy-duty kitchen order ticket printer with loud alarm & heat resistance.",
+      "description": "Designed for restaurant kitchens: moisture, oil, and heat resistant with loud buzzer alerts and flashing light for busy chefs."
+    }
+  ],
+  "machines": [
+    {
+      "id": "pos-aio-15-pro",
+      "title": "NCR RealPOS XR7 used",
+      "modelCode": "NCR RealPOS XR7",
+      "startingPrice": 78600,
+      "badge": "Most Popular",
+      "category": "Touch Screen All-in-One",
+      "summary": "Used NCR RealPOS XR7 Core i5 4590T / 2 GHz – 128GB SSD- 8GB Ram 6 months warranty",
+      "images": [
+        "/img/pos-machines/18392-7702mc1927-2-798x798.jpg.webp",
+        "/img/pos-machines/s-l1200.jpg"
+      ],
+      "specs": [
+        "15-inch Capacitive True-Flat Touch",
+        "Core i5 4590T / 2 GHz",
+        "8GB RAM + 128GB High-Speed SSD",
+        "Windows 10"
+      ],
+      "includedInBox": [
+        "15.6\" All-in-One Touch Screen Terminal",
+        "Heavy-Duty Aluminium Desktop Stand",
+        "Industrial Power Adapter & Sri Lankan 3-Pin Cable",
+        "User Manual & Warranty Certificate"
+      ],
+      "recommendedFor": "Supermarkets, Grocery Stores, Retail Shops, Pharmacies, Restaurants & Cafes",
+      "inStock": true
+    },
+    {
+      "id": "pos-dual-screen-15",
+      "title": "BELDON I7 DUAL TOUCH POS MACHINE – BN-I7-4GN-128-D/T",
+      "modelCode": "BN-I7-4GN-128-D/T",
+      "startingPrice": 155800,
+      "badge": "Best for Retail & Cafe",
+      "category": "Dual Screen Terminal",
+      "summary": "Dual display terminal featuring a 15.6\" operator touch screen plus a customer-facing 11.6\" display for showing live itemized bills, promotions, and branding.",
+      "images": [
+        "/img/pos-machines/Beldon_I7_0005_WhatsApp-Image-2026-04-27-at-14.43.12-2.jpg.webp",
+        "/img/pos-machines/Beldon_I7_0001_WhatsApp-Image-2026-04-27-at-14.43.12-6.jpg.webp",
+        "/img/pos-machines/Beldon_I7_0004_WhatsApp-Image-2026-04-27-at-14.43.12-3.jpg.webp"
+      ],
+      "specs": [
+        "BRAND – BELDON",
+        "WARRANTY – 1 YEARS",
+        "CORE i7 PROCCESSOR",
+        "4thGEN",
+        "8 GB RAM & 128GB SSD",
+        "15.6 INCH CAPACITIVE TOUCH DISPLAY",
+        "11.6 CUSTOMER TOUCH DISPLAY",
+        "WIFI"
+      ],
+      "includedInBox": [
+        "Dual-Screen 15.6\" + 11.6\" POS System",
+        "Industrial Stand with Cable Organizer",
+        "Heavy-Duty Power Supply Adapter",
+        "Pixellark Warranty & Support Card"
+      ],
+      "recommendedFor": "Fashion & Clothing Stores, Cafes, Bakeries, Modern Supermarkets, Cosmetic Shops",
+      "inStock": true
+    },
+    {
+      "id": "pos-heavy-duty-desktop",
+      "title": "Heavy-Duty Desktop POS Billing Station (PC + Monitor Bundle)",
+      "modelCode": "POS-DESK-STATION",
+      "startingPrice": 44600,
+      "badge": "Budget Friendly",
+      "category": "Desktop Billing Station",
+      "summary": "Cost-effective, highly durable counter setup featuring a compact business PC, LED monitor, multimedia keyboard, and mouse, designed for non-stop 24/7 billing.",
+      "images": [
+        "/img/pos-machines/69c22b70a5be4__1_.png"
+      ],
+      "specs": [
+        "Business Grade Intel Core i5 Desktop Processor",
+        "8GB High-Speed RAM & 128GB Solid State Drive (SSD)",
+        "22-inch Crisp LED Desktop Monitor with Sturdy Base",
+        "Keyboard & Optical Mouse",
+        "Multiple Expansion Ports: USB, VGA, Gigabit LAN",
+        "3 MONTHS Comprehensive Hardware Warranty"
+      ],
+      "includedInBox": [
+        "Desktop Mini Tower / SFF PC",
+        "19-inch LED Monitor with HDMI/VGA Cable",
+        "Spill-Resistant POS Keyboard & Optical Mouse",
+        "Power Cables & Warranty Documentation"
+      ],
+      "recommendedFor": "Hardware Stores, Wholesale Warehouses, Bookshops, Auto Spare Parts, General Retail",
+      "inStock": true
+    },
+    {
+      "id": "pos-compact-counter-12",
+      "title": "POSMAX-PM-I7-4GN-SINGLE I7 POS Machine",
+      "modelCode": "POSMAX-PM-I7-4GN-SINGLE",
+      "startingPrice": 135000,
+      "badge": "Space Saver",
+      "category": "Compact Touch Terminal",
+      "summary": "POSMAX PM-CRP-909-256 i5 POS Machine 8GB 256GB",
+      "images": [
+        "/img/pos-machines/1.webp",
+        "/img/pos-machines/2.webp",
+        "/img/pos-machines/4.webp"
+      ],
+      "specs": [
+        "WARRANTY – 1 YEAR",
+        "CORE I5 PROCCESSOR",
+        "8GB RAM",
+        "256 GB SSD",
+        "15.6 INCH TOUCH",
+        "INBUILT WIFI"
+      ],
+      "includedInBox": [
+        "12\" Compact Touch Terminal",
+        "Heavy-Duty Low-Profile Stand",
+        "Power Supply Unit & Cable",
+        "Warranty Card"
+      ],
+      "recommendedFor": "Juice Bars, Salons, Spas, Small Bakeries, Boutique Shops, Kiosks",
+      "inStock": true
+    }
+  ]
+}
