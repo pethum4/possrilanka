@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <rect width="600" height="500" rx="16" fill="#f8fafc" />
+  <circle cx="300" cy="240" r="190" fill="#f1f5f9" />
+  <ellipse cx="300" cy="440" rx="180" ry="20" fill="#cbd5e1" opacity="0.6" />
+
+  <!-- Desktop Monitor -->
+  <g transform="translate(100, 70)">
+    <rect x="0" y="0" width="300" height="200" rx="8" fill="#1e293b" />
+    <rect x="8" y="8" width="284" height="184" rx="4" fill="#0f172a" />
+    <rect x="8" y="8" width="284" height="24" fill="#0f766e" />
+    <text x="20" y="24" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">POS SL Billing Station</text>
+    <!-- Stand -->
+    <path d="M 130 200 L 170 200 L 160 250 L 140 250 Z" fill="#475569" />
+    <rect x="100" y="250" width="100" height="12" rx="4" fill="#334155" />
+  </g>
+
+  <!-- Heavy Duty Mini PC Tower -->
+  <g transform="translate(430, 110)">
+    <rect x="0" y="0" width="100" height="220" rx="8" fill="#1e293b" />
+    <circle cx="50" cy="40" r="8" fill="#10b981" />
+    <line x1="20" y1="80" x2="80" y2="80" stroke="#334155" stroke-width="2" />
+    <line x1="20" y1="100" x2="80" y2="100" stroke="#334155" stroke-width="2" />
+    <line x1="20" y1="120" x2="80" y2="120" stroke="#334155" stroke-width="2" />
+    <rect x="25" y="160" width="50" height="24" rx="3" fill="#0f766e" />
+    <text x="32" y="176" fill="#ffffff" font-family="system-ui, sans-serif" font-size="9" font-weight="bold">CORE i5</text>
+  </g>
+
+  <!-- Keyboard and Mouse Bar -->
+  <g transform="translate(140, 340)">
+    <rect x="0" y="0" width="220" height="50" rx="6" fill="#334155" />
+    <!-- Keys rows -->
+    <line x1="10" y1="12" x2="210" y2="12" stroke="#64748b" stroke-width="4" stroke-dasharray="8 4" />
+    <line x1="10" y1="24" x2="210" y2="24" stroke="#64748b" stroke-width="4" stroke-dasharray="8 4" />
+    <line x1="10" y1="36" x2="210" y2="36" stroke="#64748b" stroke-width="4" stroke-dasharray="8 4" />
+    <!-- Mouse -->
+    <rect x="240" y="5" width="28" height="42" rx="14" fill="#334155" />
+  </g>
+
+  <g transform="translate(420, 40)">
+    <rect width="140" height="32" rx="16" fill="#f59e0b" />
+    <text x="70" y="20" fill="#000000" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">HIGH PERFORMANCE</text>
+  </g>
+</svg>

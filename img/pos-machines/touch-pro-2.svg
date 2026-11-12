@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <rect width="600" height="500" rx="16" fill="#f8fafc" />
+  <circle cx="300" cy="240" r="190" fill="#f1f5f9" />
+  <ellipse cx="280" cy="430" rx="130" ry="18" fill="#cbd5e1" opacity="0.6" />
+  <!-- Stand base side profile -->
+  <path d="M 190 420 L 370 420 L 350 405 L 210 405 Z" fill="#475569" />
+  <path d="M 270 405 L 305 270 L 325 275 L 290 405 Z" fill="#334155" />
+  <!-- Rear tilted screen profile -->
+  <g transform="rotate(18 290 240)">
+    <rect x="260" y="80" width="40" height="280" rx="10" fill="#1e293b" />
+    <rect x="295" y="85" width="8" height="270" rx="3" fill="#0f766e" />
+    <!-- Rear Logo -->
+    <text x="280" y="210" fill="#64748b" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" transform="rotate(-90 280 210)">POS SL</text>
+    <!-- Ports -->
+    <rect x="264" y="260" width="14" height="20" rx="2" fill="#0f172a" />
+    <rect x="264" y="285" width="14" height="12" rx="2" fill="#0f172a" />
+    <rect x="264" y="302" width="14" height="12" rx="2" fill="#0f172a" />
+    <rect x="264" y="320" width="14" height="8" rx="2" fill="#0f172a" />
+  </g>
+  <g transform="translate(40, 60)">
+    <rect width="180" height="140" rx="10" fill="#ffffff" stroke="#e2e8f0" stroke-width="1.5" />
+    <text x="20" y="32" fill="#0f766e" font-family="system-ui, sans-serif" font-size="12" font-weight="bold">I/O PORTS &amp; DESIGN</text>
+    <text x="20" y="58" fill="#334155" font-family="system-ui, sans-serif" font-size="11">• 6x USB 2.0/3.0 Ports</text>
+    <text x="20" y="78" fill="#334155" font-family="system-ui, sans-serif" font-size="11">• 1x Gigabit RJ45 LAN</text>
+    <text x="20" y="98" fill="#334155" font-family="system-ui, sans-serif" font-size="11">• 1x Cash Drawer RJ11</text>
+    <text x="20" y="118" fill="#334155" font-family="system-ui, sans-serif" font-size="11">• Heavy Aluminum Stand</text>
+  </g>
+</svg>

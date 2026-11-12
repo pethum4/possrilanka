@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 500" width="100%" height="100%">
+  <rect width="600" height="500" rx="16" fill="#f8fafc" />
+  <circle cx="300" cy="240" r="180" fill="#f1f5f9" />
+  <ellipse cx="300" cy="425" rx="120" ry="18" fill="#cbd5e1" opacity="0.6" />
+  
+  <rect x="180" y="400" width="240" height="24" rx="12" fill="#475569" />
+  <path d="M 270 400 L 285 270 L 315 270 L 330 400 Z" fill="#334155" />
+
+  <!-- 11.6 or 12 inch compact screen -->
+  <g transform="translate(130, 90)">
+    <rect x="0" y="0" width="340" height="230" rx="10" fill="#1e293b" />
+    <rect x="6" y="6" width="328" height="218" rx="6" fill="#0f172a" />
+    <rect x="6" y="6" width="328" height="26" fill="#0f766e" />
+    <text x="18" y="23" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold">Compact Counter POS 12"</text>
+    <rect x="14" y="40" width="200" height="170" rx="4" fill="#1e293b" />
+    <rect x="222" y="40" width="100" height="170" rx="4" fill="#0f172a" />
+  </g>
+
+  <g transform="translate(420, 40)">
+    <rect width="140" height="32" rx="16" fill="#6366f1" />
+    <text x="70" y="20" fill="#ffffff" font-family="system-ui, sans-serif" font-size="11" font-weight="bold" text-anchor="middle">SPACE SAVER</text>
+  </g>
+</svg>
